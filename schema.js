@@ -26,7 +26,7 @@ const schema = buildSchema(`
     }
     input CourseInput {
         id: ID
-        courseName: String
+        courseName: String!
         category: String 
         price: Int 
         language: String 
@@ -34,6 +34,15 @@ const schema = buildSchema(`
         stack: Stack
         teachingAssists: [TeachingAssist]
     }
+    input TeachingAssistInput{
+        firstName: String
+        lastName: String
+        experience: Int
+    }
+    type Mutation {
+        createCourse(input: CourseInput): Course
+    }
+
 `)
 
 export default schema
