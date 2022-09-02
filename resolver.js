@@ -30,3 +30,6 @@ const resovlers ={
     }
 }
 
+
+
+export default resovlers
