@@ -1,0 +1,36 @@
+{
+  "name": "labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "babel",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BISrat3/Ico-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BISrat3/Ico-graphql/issues"
+  },
+  "homepage": "https://github.com/BISrat3/Ico-graphql#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-dtage-0": "^6.24.1"
+  }
+}
