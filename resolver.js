@@ -19,7 +19,7 @@ const courseHolder ={
 
 }
 
-const resovlers ={
+const resolvers ={
     getCourse : ({id}) =>{
         return new Course(id, courseHolder[id])
     },
@@ -32,4 +32,4 @@ const resovlers ={
 
 
 
-export default resovlers
+export default resolvers

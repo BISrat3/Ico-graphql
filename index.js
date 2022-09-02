@@ -1,5 +1,5 @@
 import express from 'express'
-import resovlers from './resolver'
+import resolvers from './resolver'
 import schema from './schema'
 import {graphqlHTTP} from 'express-graphql'
 import { graphql } from 'graphql'
@@ -10,9 +10,12 @@ app.get("/", (req, res)=>{
     res.send("Up and running")
 })
 
-const root ={ lco: () =>
-    console.log("Code test")}
-    
+// const root ={ lco: () =>
+//     console.log("Code test")}
+
+
+const root = resolvers; 
+
 app.use('/graphql', graphqlHTTP({
     schema:schema,
     rootValue:root,
