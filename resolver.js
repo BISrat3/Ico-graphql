@@ -19,6 +19,9 @@ const courseHolder ={
 
 }
 
+// const root ={ lco: () =>
+//     console.log("Code test")}
+
 const resolvers ={
     getCourse : ({id}) =>{
         return new Course(id, courseHolder[id])
