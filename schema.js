@@ -42,7 +42,6 @@ const schema = buildSchema(`
     type Mutation {
         createCourse(input: CourseInput): Course
     }
-
 `)
 
 export default schema

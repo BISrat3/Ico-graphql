@@ -15,10 +15,6 @@ class Course {
     }
 }
 
-const courseHolder ={
-
-}
-
 // const root ={ lco: () =>
 //     console.log("Code test")}
 

@@ -10,8 +10,6 @@ app.get("/", (req, res)=>{
     res.send("Up and running")
 })
 
-
-
 const root = resolvers; 
 
 app.use('/graphql', graphqlHTTP({
